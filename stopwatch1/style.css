@@ -1,0 +1,47 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  font-style: inherit;
+  font-weight: bold;
+  align-items: center;
+  position: absolute;
+
+}
+.stopwatch {
+  flex-direction: column;
+  align-items: center;
+  border: #2a5bd4;
+  background-color: rgb(255, 214, 127);
+  margin-top: 5rem;
+}
+
+.display {
+  font-size: 4rem;
+  margin: 2rem;
+}
+
+.button{
+  margin: 2rem;
+}
+
+.control {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #4285f4;
+  color: white;
+  cursor: pointer;
+}
+
+.control:hover {
+  background-color: #357ae8;
+}
+
+.control:active {
+  background-color: #2a5bd4;
+}
