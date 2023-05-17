@@ -1,13 +1,42 @@
 #main-heading {
 	text-align: center;
-	font-size: 40px;
+	font-size: 70px;
+    text-transform: uppercase;
 
+}
+.container{
+    background-color:burlywood;
+}
+
+.form-group{
+    font-size: 40px;
+}
+
+.form-group .form-control{
+    font-size: 25px;
+    background-color:limegreen;
 }
 
 #append{
+    color: white;
 	margin-top: 2em;
+    background-color: darkblue;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .btn {
 	margin-right:4rem;
+    
+}
+.calc{
+    margin: 1rem;
+    display: inline;
+    align-content: center;
+    font-weight: bold;
+}
+.calc .btn {
+    font-weight: bold;
+    font-size: 30px;
 }
