@@ -1,16 +1,17 @@
 body {
-	background-color: yellow;
+	background-color: gold;
 	font-family: 'Trebuchet MS';
 }
+
 h1 {
-	font-size: 35px;
-}
-h1 {
-	font-size: 21px;
-	margin-top: 20px;
+	text-align: center;
+	font-size: 4em;
+	margin-top: 5%;
+	text-transform: uppercase;
 }
 .calculator {
 	width: auto;
+	font-size: 2em;
 	height: 450px;
 	background-color: rgb(14, 45, 199);
 	position: absolute;
@@ -20,9 +21,12 @@ h1 {
 	padding: 20px 0px 0px 100px;
 	border-radius: 50px;
 	color: white;
+	display: inline-table;
 }
 input {
 	padding: 7px;
 	width: 70%;
 	margin-top: 7px;
+	font-size: 1em;
 }
+
