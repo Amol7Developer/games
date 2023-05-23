@@ -14,14 +14,14 @@ function Calculate(){
         const profit=SP - CP;
         const profit_percent= ((profit/CP)*100).toFixed(2);
 
-        profit__loss.innerHTML="Profit : "+ profit;
+        profit__loss.innerHTML="Profit : <spane style= 'color:green;'>"+profit+"</spane>";
         percentage.innerHTML="Profit Percentage : "+ profit_percent;
     }
     if(SP<CP){
         const loss=CP - SP;
         const loss_percent= ((loss/CP)*100).toFixed(2);
 
-        profit__loss.innerHTML="Loss : "+ loss;
+        profit__loss.innerHTML="Loss : <spane style= 'color:red;'>"+loss+"</spane>";
         percentage.innerHTML="Loss Percentage : "+ loss_percent;
     }
     if(SP==CP){

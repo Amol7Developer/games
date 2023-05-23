@@ -5,11 +5,28 @@ body{
 .plcalculate{
     text-align: center;
     background-color: rgb(242, 255, 55);
-    width: 500px;
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+    font-size: 1.5em;
+    position:relative;
+    display:grid;
 }
+.plcalculate p{
+    font-size: 1em;
+}
+
+.plcalculate input{
+    font-size: 1em;
+}
+button{
+    width: auto;
+    height: 200%;
+    
+}
+
 h2{
-    color: white;
+    color: rgb(12, 1, 1);
+    font-size: 1em;
 }
