@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+    background: #0472b1;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    }
+    
+    .container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 20px;
+    }
+    
+    .container h1{
+        margin: 50px 0 0 0;
+    }
+    .screen-body-item {
+    flex: 1;
+    padding: 50px;
+    }
+    input {
+    margin: 10px 10px 10px;
+    font-size: 20px;
+    padding: 1rem;
+    font-weight: bold;
+    }
+    .showdata {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    
+   
