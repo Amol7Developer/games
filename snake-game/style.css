@@ -5,8 +5,8 @@ body {
     font-size: 1.5em;
   }      
 .grid {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border: 1px solid red;
     margin: auto;
     display: flex;
